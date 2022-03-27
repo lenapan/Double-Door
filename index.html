@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Double Door</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans|Raleway" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+<body>
+	<!-- <section class="vue tests">
+		<div id="example">
+     		<p>{{ hello }}</p>
+   		</div>
+		<script>
+			new Vue({
+				el: '#example',
+				data: {	hello: "learning vue" }
+			})
+		</script>
+	</section> -->
+
+
+
+
+
+	<header class="row">
+		<div class="d-none d-md-block col-md-6">
+			<img src="images/ddlogo.png" class="logo" />
+			<nav id="menu">
+				<a href="#">Buy</a>
+				<a href="#">Sell</a>
+				<a href="#">Find Professional</a>
+				<a href="#">Additional Resources <i class="fa fa-chevron-down"></i></a>
+			</nav>
+		</div>
+		<span class="menu-bar d-md-none offset-1">
+			<a href="" class="drop-button"><i class="fa fa-bars"></i></a>
+			<div class="drop-down-list">
+				<a href="#">Buy</a>
+				<a href="#">Sell</a>
+				<a href="#">Find Professional</a>
+				<a href="#">Additional Resources<i class="fa fa-chevron-down"></i></a>
+			</div>
+		</span>
+		<div class="col-12 col-md-6 div-menu-right">
+			<span id="login" class="offset-4 offset-md-6">
+				<a href="#">English <i class="fa fa-chevron-down"></i></a>
+				<span class="vr"></span>
+				<a href=""id="signup">Sign Up</a>
+				<a href="">Login</a>
+				<img src="images/ddlogo.png" class="logo logo2" />
+			</span>
+		</div>
+	</header>
+	<!--  -->
+	<main>
+		<img src="images/doubledoorname.png" class="logo-name">
+		<div class="intro">Where Your Smart Investment Begins</div>
+		<div class="search row d-flex d-block justify-content-center">
+			<div class="enter d-flex d-block d-md-inline-block">
+				<input type="enter" name="enter" placeholder="Enter a location"></input>
+			</div>
+			<div class="submit row d-flex d-block d-md-inline-block">
+				<button>Buy <i class="fa fa-chevron-down"></i></button>
+			</div>
+			<i class="fa fa-search"></i>
+		</div>
+	</main>
+	<section class="property-list">
+		<span class="prop-title">Top Properties <span class="location">  in Los Angeles</span></span>	
+		<div class="d-flex justify-content-center">
+            <div class="d-flex flex-column flex-md-row">
+            	<div class="panel">
+                	<img src="placeholder/Property1.png" class="feature">
+                	<h3>$135,000</h3>
+	               	<p>Los Angeles, CA 90077</p>
+	               	<p class="home-details">
+	               		<span class="sqfeet">2472 sqrft</span>
+	               		<span class="beds"><i class="fa fa-bed"></i> 6 beds</span>
+	               		<span class="bath"><i class="fa fa-bath"></i> 2 bath</span>
+	               	</p>
+            	</div>
+            	<div class="panel">
+            		<img src="placeholder/Property2.png" class="feature">
+	                <h3>$135,000</h3>
+	                <p>Los Angeles, CA 90077</p>
+	                <p class="home-details">
+	               		<span class="sqfeet">2472 sqrft</span>
+	               		<span class="beds"><i class="fa fa-bed"></i> 6 beds</span>
+	               		<span class="bath"><i class="fa fa-bath"></i> 2 bath</span>
+	               	</p>
+            	</div>
+            	<div class="panel">
+            		<img src="placeholder/Property3.png" class="feature">
+	                <h3>$135,000</h3>
+	                <p>Los Angeles, CA 90077</p>
+	                <p class="home-details">
+	               		<span class="sqfeet">2472 sqrft</span>
+	               		<span class="beds"><i class="fa fa-bed"></i> 6 beds</span>
+	               		<span class="bath"><i class="fa fa-bath"></i> 2 bath</span>
+	               	</p>
+            	</div>
+            	<div class="panel">
+            		<img src="placeholder/Property4.png" class="feature">
+	                <h3>$135,000</h3>
+	                <p>Los Angeles, CA 90077</p>
+	                <p class="home-details">
+	               		<span class="sqfeet">2472 sqrft</span>
+	               		<span class="beds"><i class="fa fa-bed"></i> 6 beds</span>
+	               		<span class="bath"><i class="fa fa-bath"></i> 2 bath</span>
+	               	</p>
+            	</div>
+        	</div>
+        	<span class="continue-arrow d-none d-md-block align-self-center"><i class="fa fa-chevron-right"></i></span>
+        </div>
+
+    <!--     <div class="d-flex justify-content-center">
+            <div class="d-flex flex-column flex-md-row">
+            	<div class="panel d-flex flex-column">
+                	<img src="placeholder/Property1.png" class="feature">
+                	<h3>$135,000</h3>
+	               	<p>Los Angeles, CA 90077</p>
+	               	<p class="home-details">
+	               		<span class="sqfeet">2472 sqrft</span>
+	               		<span class="beds"><i class="fa fa-bed"></i> 6 beds</span>
+	               		<span class="bath"><i class="fa fa-bath"></i> 2 bath</span>
+	               	</p>
+            	</div>
+	            <div class="panel d-flex flex-column">
+	                <img src="placeholder/Property2.png" class="feature">
+	                <h3>$235,000</h3>
+	                <p>Los Angeles, CA 90077</p>
+	                <p class="home-details">
+	               		<span class="sqfeet">2472 sqrft</span>
+	               		<span class="beds"><i class="fa fa-bed"></i> 6 beds</span>
+	               		<span class="bath"><i class="fa fa-bath"></i> 2 bath</span>
+	               	</p>
+	            </div>
+        	</div>
+       	 	<div class="d-flex flex-column flex-md-row">
+	            <div class="panel d-flex flex-column">
+	                <img src="placeholder/Property3.png" class="feature">
+	                <h3>$135,000</h3>
+	                <p>Los Angeles, CA 90077</p>
+	                <p class="home-details">
+	               		<span class="sqfeet">2472 sqrft</span>
+	               		<span class="beds"><i class="fa fa-bed"></i> 6 beds</span>
+	               		<span class="bath"><i class="fa fa-bath"></i> 2 bath</span>
+	               	</p>
+	            </div>
+	            <div class="panel d-flex flex-column">
+	                <img src="placeholder/Property4.png" class="feature">
+	                <h3>$235,000</h3>
+	                <p>Los Angeles, CA 90077</p>
+	                <p class="home-details">
+	               		<span class="sqfeet">2472 sqrft</span>
+	               		<span class="beds"><i class="fa fa-bed"></i> 6 beds</span>
+	               		<span class="bath"><i class="fa fa-bath"></i> 2 baths </span>
+	               	</p>
+	            </div>
+        	</div>
+        </div> -->
+	</section>
+	<section class="featured-city">
+		<span class="city-title">Featured Cities</span>
+		<div class="d-flex justify-content-center">	
+	        <div class="d-flex flex-column flex-md-row">
+	        	<div class="panelb d-flex flex-column">
+	            	<a href=""><img src="placeholder/City1.png" class="city"></a>
+	            </div>
+	            <div class="panelb d-flex flex-column">
+	        		<a href=""><img src="placeholder/City2.png" class="city"></a>
+	        	</div>
+	        	<div class="panelb d-flex flex-column">
+	        		<a href=""><img src="placeholder/City3.png" class="city"></a> 
+	        	</div>
+	        	<div class="panelb d-flex flex-column">    	
+	        		<a href=""><img src="placeholder/City4.png" class="city"></a>
+	        	</div>
+	        </div>
+	        <div class="d-flex flex-column flex-md-row">
+	        	<div class="panelb d-flex flex-column">
+	        		<a href=""><img src="placeholder/City5.png" class="city"></a>
+	        	</div>
+	        	<div class="panelb d-flex flex-column">
+	        		<a href=""><img src="placeholder/City6.png" class="city"></a>
+	        	</div>
+	        	<div class="panelb d-flex flex-column d-md-none">
+	        		<a href=""><img src="placeholder/City5.png" class="city"></a>
+	        	</div>
+	        	<div class="panelb d-flex flex-column d-md-none">
+	        		<a href=""><img src="placeholder/City6.png" class="city"></a>
+	        	</div>
+	    	</div>
+		</div>
+	</section>
+	<div class="info-vid d-flex justify-content-center">
+		<strong><span class="dd-why">Why DoubleDoor?</span></strong>
+	</div>
+	<div class="vid">
+	</div>
+	<section class="closing">
+        <div class="d-flex justify-content-center">
+            <div class="d-flex flex-column flex-md-row">
+            	<div class="panel d-flex flex-column">
+                	<h3>Search Homes by City </h3>
+               		<li> Atlanta
+               		<li> Austin
+               		<li> Boltimore
+               		<li> Boston
+               		<li> New York
+               		<li> Los Angeles
+            	</div>
+	            <div class="panel d-flex flex-column">
+	                <h3>Search Homes by State</h3>
+               		<li> Atlanta
+               		<li> Austin
+               		<li> Boltimore
+               		<li> Boston
+               		<li> New York
+               		<li> Los Angeles
+	            </div>
+	            <div class="panel d-flex flex-column">
+	                <h3>Popular Real Estate Markets</h3>
+               		<li> Washington Houses
+               		<li> Chicago Houses
+               		<li> Dallas Houses
+               		<li> Boston Houses
+               		<li> New York Houses
+               		<li> Los Angeles Houses
+	            </div>
+	            <div class="panel d-flex flex-column">
+	                <h3>Mortgage Rates</h3>
+               		<li> Atlanta Mortgage
+               		<li> Austin Mortgage
+               		<li> Boltimore Mortgage
+               		<li> Boston Mortgage
+               		<li> New York Mortgage
+               		<li> Los Angeles Mortgage
+               	</div>
+        	</div>
+        </div>
+     	<div class="row flex-column-reverse flex-md-row">
+	    	<div class="copyright col-12 col-md-6">
+	    		<small>Copyright: <i class="fa fa-copyright"></i> 2018 DoubleDoor. All rights reserved</small>
+	    	</div>
+	    	<div class="end-links col-12 col-md-6">
+	    		<small class="offset-md-4">
+	    			<a href="#">About</a>
+	    			<a href="#">Careers</a>
+	    			<a href="#">Press</a>
+	    			<a href="#">Feedback</a>
+	    			<a href="#">Contact Us</a>
+	    			<a href="#">Help</a>
+	    			<a href="#">SiteMap</a>
+	    		</small>
+	    	</div>
+   		</div> 
+	</section>
+
+	<!-- 
+	<i class="fa fa-heart"></i>
+	<i class="fa fa-eye-slash"></i>
+	<p>X</p>
+	 -->
+
+	<!-- <form data-role="email_login" class="form phm" name="email_login_form" method="POST">
+		<div class="cols19 centerHorizontal">
+			<div class="mbs txtC h3 typeEmphasize">
+			Sign in or register<br>to save your favorite homes
+			</div>
+			<div class="centerHorizontal">
+				<div class="field mtn">
+					<div class="fieldItem text pbm">
+						<input data-role="login_email_input" size="25" type="text" name="email" value="" placeholder="Enter email address">
+						<small data-role="error_message" class="typeWarning"></small>
+					</div>
+				</div>
+				<div id="regReCaptchaWrapper" class="centerHorizontal"></div>
+				<div class="field">
+					<button data-action="submit" class="btn btnPrimary btnFullWidth">Submit</button>
+				</div>
+				<div data-role="facebookLogin" class="txtC">
+					<div class="line mtl">
+						<div class="col cols11">
+							<hr>
+						</div>
+						<div class="col cols2 typeLowlight centerVertical">
+						OR
+						</div>
+						<div class="col cols11">
+							<hr>
+						</div>
+					</div>
+					<div class="field">
+						<button name="fbSignIn" class="btn btnFacebook btnFullWidth"><i class="iconFacebook"></i>Continue with Facebook</button>
+					</div>
+				</div>
+				<div data-role="googleSignIn" class="txtC">
+					<div class="line mts"></div>
+					<div class="field">
+						<button name="googleSignIn" class="btn btnDefault btnFullWidth"><i class="iconGoogleSignIn"></i>Continue with Google</button>
+					</div>
+				</div>
+				<p class="txtC h8 typeLowlight pvm">
+				I accept Trulia's <a class="linkLowlight" href="/terms/" target="_blank">Terms of Use</a> and <a class="linkLowlight" href="/privacy/" target="_blank">Privacy Policy</a>.
+				</p>
+				<p class="txtC btnLink h7">
+					<a href="https://premieragent.zillow.com/products/agent-account/" rel="nofollow">Are you a Real Estate Professional? Register here.</a>
+				</p>
+			</div>
+		</div>
+	</form> -->
+
+</body>
+</html>
