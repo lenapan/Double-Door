@@ -1,4 +1,4 @@
-# Mobile-first Responsive Design
+# Mobile-First Responsive Design
 
 ## Description
 This was an old website I drafted for a startup company back in 2018 that did not become successful. 
